@@ -1,0 +1,76 @@
+{
+  "name": "eslint-config-lintly",
+  "version": "0.0.1",
+  "description": "Lintly ESLint configuration.",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "nodely -s ./src -o ./lib",
+    "postpublish": "codecov",
+    "prepublishOnly": "npm run build",
+    "test": "npm run build && eslint src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dogma-io/eslint-config-lintly.git"
+  },
+  "keywords": [
+    "check",
+    "code",
+    "config",
+    "configuration",
+    "eslint",
+    "javascript",
+    "js",
+    "lint",
+    "lintly",
+    "qaulity",
+    "rules",
+    "style"
+  ],
+  "author": "Matthew Dahl <https://github.com/dogma-io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dogma-io/eslint-config-lintly/issues"
+  },
+  "homepage": "https://github.com/dogma-io/eslint-config-lintly#readme",
+  "devDependencies": {
+    "codecov": "3.0.0",
+    "eslint": "4.14.0",
+    "jest-cli": "22.0.4",
+    "nodely": "0.0.21"
+  },
+  "dependencies": {
+    "babel-eslint": "8.1.2",
+    "eslint-config-standard": "11.0.0-beta.0",
+    "eslint-plugin-flowtype": "2.41.0",
+    "eslint-plugin-import": "2.8.0",
+    "eslint-plugin-node": "5.2.1",
+    "eslint-plugin-prettier": "2.4.0",
+    "eslint-plugin-promise": "3.6.0",
+    "eslint-plugin-react": "7.5.1",
+    "eslint-plugin-standard": "3.0.1",
+    "prettier": "1.9.2"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "src/**/*.js"
+    ],
+    "coverageReporters": [
+      "json-summary",
+      "lcov"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 100,
+        "functions": 100,
+        "lines": 100,
+        "statements": 100
+      }
+    },
+    "testRegex": "/__tests__/.*-test\\.js$"
+  }
+}
