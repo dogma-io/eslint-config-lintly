@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-lintly",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Lintly ESLint configuration.",
   "main": "lib/index.js",
   "files": [
@@ -10,7 +10,7 @@
     "build": "nodely -s ./src -o ./lib",
     "postpublish": "codecov",
     "prepublishOnly": "npm run build",
-    "test": "npm run build && eslint src/"
+    "test": "npm run build && eslint src/ && jest"
   },
   "repository": {
     "type": "git",

@@ -4,29 +4,20 @@ const ERROR = 'error'
 
 describe('config', () => {
   it('should extend standard', () => {
-    expect(config.extend).toBe('standard')
+    expect(config.extends).toBe('standard')
   })
 
   it('should include Jest methods in globals', () => {
-    const {
-      afterAll,
-      afterEach,
-      beforeAll,
-      beforeEach,
-      describe,
-      expect,
-      it,
-      jest,
-    } = config.globals
+    const {globals} = config
 
-    expect(afterAll).toBe(false)
-    expect(afterEach).toBe(false)
-    expect(beforeAll).toBe(false)
-    expect(beforeEach).toBe(false)
-    expect(describe).toBe(false)
-    expect(expect).toBe(false)
-    expect(it).toBe(false)
-    expect(jest).toBe(false)
+    expect(globals.afterAll).toBe(false)
+    expect(globals.afterEach).toBe(false)
+    expect(globals.beforeAll).toBe(false)
+    expect(globals.beforeEach).toBe(false)
+    expect(globals.describe).toBe(false)
+    expect(globals.expect).toBe(false)
+    expect(globals.it).toBe(false)
+    expect(globals.jest).toBe(false)
   })
 
   it('should include fetch in globals for browser code', () => {
