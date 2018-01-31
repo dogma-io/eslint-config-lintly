@@ -1,7 +1,7 @@
 const ERROR = 'error'
 
 module.exports = {
-  extends: 'standard',
+  extends: ['standard', 'plugin:react-compat/recommended'],
   globals: {
     afterAll: false,
     afterEach: false,
@@ -28,7 +28,7 @@ module.exports = {
     },
   ],
   parser: 'babel-eslint',
-  plugins: ['flowtype', 'prettier', 'react'],
+  plugins: ['flowtype', 'prettier', 'react', 'react-compat'],
   rules: {
     'comma-dangle': [ERROR, 'always-multiline'],
 

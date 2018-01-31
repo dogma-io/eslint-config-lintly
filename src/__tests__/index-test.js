@@ -3,8 +3,12 @@ import config from '../'
 const ERROR = 'error'
 
 describe('config', () => {
-  it('should extend standard', () => {
-    expect(config.extends).toBe('standard')
+  it('should extend standard config', () => {
+    expect(config.extends).toContain('standard')
+  })
+
+  it("should extend react-compat plugin's recommended config", () => {
+    expect(config.extends).toContain('plugin:react-compat/recommended')
   })
 
   it('should include Jest methods in globals', () => {
@@ -53,5 +57,9 @@ describe('config', () => {
     expect(config.plugins).toContain('react')
     expect(config.rules['react/jsx-uses-react']).toEqual([ERROR])
     expect(config.rules['react/jsx-uses-vars']).toEqual([ERROR])
+  })
+
+  it('should include react-compat plugin', () => {
+    expect(config.plugins).toContain('react-compat')
   })
 })

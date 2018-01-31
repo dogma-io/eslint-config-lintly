@@ -1,3 +1,8 @@
+## 0.0.4
+
+*   Add eslint-plugin-react-compat.
+*   Upgrade dependencies to latest versions.
+
 ## 0.0.3
 
 *   Upgrade to latest nodely which uses Babel 7 beta.
