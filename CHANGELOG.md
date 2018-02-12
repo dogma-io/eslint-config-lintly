@@ -1,3 +1,7 @@
+## 0.0.5
+
+*   Upgrade dependencies to latest versions.
+
 ## 0.0.4
 
 *   Add eslint-plugin-react-compat.
