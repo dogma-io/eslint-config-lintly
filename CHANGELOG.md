@@ -1,3 +1,7 @@
+## 0.0.6
+
+*   Enable stricter lint rules.
+
 ## 0.0.5
 
 *   Upgrade dependencies to latest versions.

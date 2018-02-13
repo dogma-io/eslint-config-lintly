@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-lintly",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Lintly ESLint configuration.",
   "main": "lib/index.js",
   "files": [

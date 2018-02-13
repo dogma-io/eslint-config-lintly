@@ -7,6 +7,14 @@ describe('config', () => {
     expect(config.extends).toContain('standard')
   })
 
+  it("should extend flowtype plugin's recommended config", () => {
+    expect(config.extends).toContain('plugin:flowtype/recommended')
+  })
+
+  it("should extend react plugin's recommended config", () => {
+    expect(config.extends).toContain('plugin:react/recommended')
+  })
+
   it("should extend react-compat plugin's recommended config", () => {
     expect(config.extends).toContain('plugin:react-compat/recommended')
   })
@@ -61,5 +69,28 @@ describe('config', () => {
 
   it('should include react-compat plugin', () => {
     expect(config.plugins).toContain('react-compat')
+  })
+
+  it('should configure stricter rules for non mock/test modules', () => {
+    const overrides = config.overrides.find(
+      o =>
+        o.excludedFiles.length === 2 &&
+        o.excludedFiles.includes('**/__mocks__/**/*.js') &&
+        o.excludedFiles.includes('**/__tests__/**/*.js') &&
+        o.files.length === 1 &&
+        o.files.includes('**/*.js'),
+    )
+
+    expect(overrides.rules).toEqual({
+      'flowtype/define-flow-type': [ERROR],
+      'flowtype/no-flow-fix-me-comments': [ERROR],
+      'flowtype/no-primitive-constructor-types': [ERROR],
+      'flowtype/no-weak-types': [ERROR],
+      'flowtype/require-exact-type': [ERROR],
+      'flowtype/require-parameter-type': [ERROR],
+      'flowtype/require-return-type': [ERROR],
+      'flowtype/sort-keys': [ERROR],
+      'flowtype/use-flow-type': [ERROR],
+    })
   })
 })

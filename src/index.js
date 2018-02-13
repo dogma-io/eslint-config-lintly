@@ -1,7 +1,12 @@
 const ERROR = 'error'
 
 module.exports = {
-  extends: ['standard', 'plugin:react-compat/recommended'],
+  extends: [
+    'standard',
+    'plugin:flowtype/recommended',
+    'plugin:react/recommended',
+    'plugin:react-compat/recommended',
+  ],
   globals: {
     afterAll: false,
     afterEach: false,
@@ -19,7 +24,10 @@ module.exports = {
       files: ['**/*.js'],
       rules: {
         'flowtype/define-flow-type': [ERROR],
+        'flowtype/no-flow-fix-me-comments': [ERROR],
+        'flowtype/no-primitive-constructor-types': [ERROR],
         'flowtype/no-weak-types': [ERROR],
+        'flowtype/require-exact-type': [ERROR],
         'flowtype/require-parameter-type': [ERROR],
         'flowtype/require-return-type': [ERROR],
         'flowtype/sort-keys': [ERROR],
