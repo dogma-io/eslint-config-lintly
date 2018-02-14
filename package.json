@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-lintly",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Lintly ESLint configuration.",
   "main": "lib/index.js",
   "files": [
@@ -50,7 +50,7 @@
     "eslint-plugin-flowtype": "2.44.0",
     "eslint-plugin-import": "2.8.0",
     "eslint-plugin-node": "6.0.0",
-    "eslint-plugin-opinionated": "0.0.1",
+    "eslint-plugin-opinionated": "0.0.2",
     "eslint-plugin-prettier": "2.6.0",
     "eslint-plugin-promise": "3.6.0",
     "eslint-plugin-react": "7.6.1",

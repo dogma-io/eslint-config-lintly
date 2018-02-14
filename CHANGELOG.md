@@ -1,3 +1,7 @@
+## 0.0.8
+
+*   Upgrade `eslint-plugin-opinionated` for a bug fix.
+
 ## 0.0.7
 
 *   Add `eslint-plugin-opinionated`.
