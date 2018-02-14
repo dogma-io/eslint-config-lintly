@@ -11,6 +11,10 @@ describe('config', () => {
     expect(config.extends).toContain('plugin:flowtype/recommended')
   })
 
+  it("should extend opinionated plugin's recommended config", () => {
+    expect(config.extends).toContain('plugin:opinionated/recommended')
+  })
+
   it("should extend react plugin's recommended config", () => {
     expect(config.extends).toContain('plugin:react/recommended')
   })
@@ -45,6 +49,10 @@ describe('config', () => {
     expect(config.settings.flowtype).toEqual({
       onlyFilesWithFlowAnnotation: false,
     })
+  })
+
+  it('should include opinionated plugin', () => {
+    expect(config.plugins).toContain('opinionated')
   })
 
   it('should include prettier plugin and configure it', () => {

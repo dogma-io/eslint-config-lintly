@@ -1,3 +1,8 @@
+## 0.0.7
+
+*   Add `eslint-plugin-opinionated`.
+*   Upgrade `eslint-plugin-flowtype` to latest version.
+
 ## 0.0.6
 
 *   Enable stricter lint rules.
