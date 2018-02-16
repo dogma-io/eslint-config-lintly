@@ -4,6 +4,7 @@ module.exports = {
   extends: [
     'standard',
     'plugin:flowtype/recommended',
+    'plugin:jsx-a11y/recommended',
     'plugin:opinionated/recommended',
     'plugin:react/recommended',
     'plugin:react-compat/recommended',
@@ -37,7 +38,14 @@ module.exports = {
     },
   ],
   parser: 'babel-eslint',
-  plugins: ['flowtype', 'opinionated', 'prettier', 'react', 'react-compat'],
+  plugins: [
+    'flowtype',
+    'jsx-a11y',
+    'opinionated',
+    'prettier',
+    'react',
+    'react-compat',
+  ],
   rules: {
     'comma-dangle': [ERROR, 'always-multiline'],
 

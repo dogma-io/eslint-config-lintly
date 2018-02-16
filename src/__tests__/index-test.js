@@ -11,6 +11,10 @@ describe('config', () => {
     expect(config.extends).toContain('plugin:flowtype/recommended')
   })
 
+  it("should extend jsx-a11y plugin's recommended config", () => {
+    expect(config.extends).toContain('plugin:jsx-a11y/recommended')
+  })
+
   it("should extend opinionated plugin's recommended config", () => {
     expect(config.extends).toContain('plugin:opinionated/recommended')
   })
@@ -49,6 +53,10 @@ describe('config', () => {
     expect(config.settings.flowtype).toEqual({
       onlyFilesWithFlowAnnotation: false,
     })
+  })
+
+  it('should include jsx-a11y plugin', () => {
+    expect(config.plugins).toContain('jsx-a11y')
   })
 
   it('should include opinionated plugin', () => {

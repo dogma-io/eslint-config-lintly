@@ -1,3 +1,7 @@
+## 0.0.9
+
+*   Add `eslint-plugin-jsx-a11y`.
+
 ## 0.0.8
 
 *   Upgrade `eslint-plugin-opinionated` for a bug fix.
