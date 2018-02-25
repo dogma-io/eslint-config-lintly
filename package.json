@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-lintly",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Lintly ESLint configuration.",
   "main": "lib/index.js",
   "files": [
@@ -38,23 +38,23 @@
   "homepage": "https://github.com/dogma-io/eslint-config-lintly#readme",
   "devDependencies": {
     "babel-core": "^7.0.0-0",
-    "babel-jest": "22.2.2",
+    "babel-jest": "22.4.1",
     "codecov": "3.0.0",
-    "eslint": "4.17.0",
-    "jest-cli": "22.3.0",
-    "nodely": "0.0.28"
+    "eslint": "4.18.1",
+    "jest-cli": "22.4.2",
+    "nodely": "0.0.29"
   },
   "dependencies": {
-    "babel-eslint": "8.2.1",
-    "eslint-config-standard": "11.0.0-beta.0",
-    "eslint-plugin-flowtype": "2.44.0",
-    "eslint-plugin-import": "2.8.0",
+    "babel-eslint": "8.2.2",
+    "eslint-config-standard": "11.0.0",
+    "eslint-plugin-flowtype": "2.46.1",
+    "eslint-plugin-import": "2.9.0",
     "eslint-plugin-jsx-a11y": "6.0.3",
-    "eslint-plugin-node": "6.0.0",
+    "eslint-plugin-node": "6.0.1",
     "eslint-plugin-opinionated": "0.0.2",
     "eslint-plugin-prettier": "2.6.0",
     "eslint-plugin-promise": "3.6.0",
-    "eslint-plugin-react": "7.6.1",
+    "eslint-plugin-react": "7.7.0",
     "eslint-plugin-react-compat": "0.0.3",
     "eslint-plugin-standard": "3.0.1",
     "prettier": "1.10.2"

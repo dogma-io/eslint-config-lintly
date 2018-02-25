@@ -1,3 +1,7 @@
+## 0.0.10
+
+*   Upgrade dependencies to latest versions.
+
 ## 0.0.9
 
 *   Add `eslint-plugin-jsx-a11y`.
