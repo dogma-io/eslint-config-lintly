@@ -2,6 +2,13 @@
 
 [Lintly](https://github.com/dogma-io/lintly) ESLint configuration.
 
+## Table of Contents
+
+*   [Installation](#installation)
+*   [Documentation](#documentation)
+*   [Contributing](#contributing)
+*   [License](#license)
+
 ## Installation
 
 **npm**
@@ -16,7 +23,7 @@ npm install eslint-config-lintly
 yarn add eslint-config-lintly
 ```
 
-## Usage
+## Documentation
 
 Add the following to your [ESLint configuration file](https://eslint.org/docs/user-guide/configuring):
 
@@ -25,6 +32,14 @@ Add the following to your [ESLint configuration file](https://eslint.org/docs/us
   "extends": "lintly"
 }
 ```
+
+## Contributing
+
+Please see the [contributing guide](CONTRIBUTING.md).
+
+## License
+
+[MIT](LICENSE.md)
 
 [cov-img]: https://img.shields.io/codecov/c/github/dogma-io/eslint-config-lintly.svg "Code Coverage"
 [cov-url]: https://codecov.io/gh/dogma-io/eslint-config-lintly
