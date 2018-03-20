@@ -6,6 +6,7 @@
 
 *   [Installation](#installation)
 *   [Documentation](#documentation)
+*   [Code of Conduct](#code-of-conduct)
 *   [Contributing](#contributing)
 *   [License](#license)
 
@@ -32,6 +33,10 @@ Add the following to your [ESLint configuration file](https://eslint.org/docs/us
   "extends": "lintly"
 }
 ```
+
+## Code of Conduct
+
+Please see the [code of conduct](CODE_OF_CONDUCT.md).
 
 ## Contributing
 
