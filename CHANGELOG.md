@@ -1,3 +1,9 @@
+# 0.2.0 (2018-05-27)
+
+*  Add flow types to `lib` directory.
+* Upgrade dependencies to latest versions.
+
+
 # 0.1.4 (2018-05-18)
 
 *   Upgrade dependencies to latest versions.
