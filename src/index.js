@@ -1,3 +1,7 @@
+/**
+ * @flow
+ */
+
 const ERROR = 'error'
 
 module.exports = {
