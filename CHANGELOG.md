@@ -1,3 +1,8 @@
+# 0.2.2 (2018-06-14)
+
+*   Upgrade to latest patch version of `prettier`.
+
+
 # 0.2.1 (2018-06-05)
 
 *   Make sure build is ES5.
