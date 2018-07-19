@@ -1,3 +1,7 @@
+# 0.3.0 (2018-07-19)
+
+*   Upgrade dependencies to latest versions.
+
 # 0.2.2 (2018-06-14)
 
 *   Upgrade to latest patch version of `prettier`.
