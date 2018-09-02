@@ -1,3 +1,8 @@
+# 0.4.1 (2018-09-02)
+
+*   Fix Flow types.
+
+
 # 0.4.0 (2018-09-02)
 
 *   Upgrade dependencies to latest versions.
