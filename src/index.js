@@ -3,6 +3,7 @@
  */
 
 const ERROR = 'error'
+const NEVER = 'never'
 
 module.exports = {
   extends: [
@@ -58,6 +59,8 @@ module.exports = {
 
     // Disabling this for now b/c it expects imports before jest.mock calls
     'import/first': [0],
+
+    'object-curly-spacing': [ERROR, NEVER],
 
     // Making prettier comply with standard as much as possible
     'prettier/prettier': [
