@@ -40,7 +40,7 @@
   "devDependencies": {
     "babel-core": "^7.0.0-0",
     "babel-jest": "23.4.2",
-    "babel-preset-nodely": "0.2.0",
+    "babel-preset-nodely": "0.3.0",
     "codecov": "3.0.4",
     "eslint": "5.5.0",
     "jest": "23.5.0",
@@ -63,24 +63,5 @@
   },
   "peerDependencies": {
     "eslint": "^5.0.0"
-  },
-  "jest": {
-    "collectCoverage": true,
-    "collectCoverageFrom": [
-      "src/**/*.js"
-    ],
-    "coverageReporters": [
-      "json-summary",
-      "lcov"
-    ],
-    "coverageThreshold": {
-      "global": {
-        "branches": 100,
-        "functions": 100,
-        "lines": 100,
-        "statements": 100
-      }
-    },
-    "testRegex": "/__tests__/.*-test\\.js$"
   }
 }
