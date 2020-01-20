@@ -22,37 +22,37 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Fixed
 *   Changelog so it'll get updated by CI.
 
-# [0.5.0] - 2018-09-02 ([PR 18](https://github.com/dogma-io/eslint-config-lintly/pull/18))
+## [0.5.0] - 2018-09-02 ([PR 18](https://github.com/dogma-io/eslint-config-lintly/pull/18))
 
 ### Changed
 *   Dependencies to latest versions.
 
-# [0.4.1] - 2018-09-02 ([PR 16](https://github.com/dogma-io/eslint-config-lintly/pull/16))
+## [0.4.1] - 2018-09-02 ([PR 16](https://github.com/dogma-io/eslint-config-lintly/pull/16))
 
 ### Fixed
 *   Flow types.
 
-# [0.4.0] - 2018-09-02 ([PR 15](https://github.com/dogma-io/eslint-config-lintly/pull/15))
+## [0.4.0] - 2018-09-02 ([PR 15](https://github.com/dogma-io/eslint-config-lintly/pull/15))
 
 ### Changed
 *   Dependencies to latest versions.
 
-# [0.3.0] - 2018-07-19 ([PR 14](https://github.com/dogma-io/eslint-config-lintly/pull/14))
+## [0.3.0] - 2018-07-19 ([PR 14](https://github.com/dogma-io/eslint-config-lintly/pull/14))
 
 ### Changed
 *   Dependencies to latest versions.
 
-# [0.2.2] - 2018-06-14 ([PR 13](https://github.com/dogma-io/eslint-config-lintly/pull/13))
+## [0.2.2] - 2018-06-14 ([PR 13](https://github.com/dogma-io/eslint-config-lintly/pull/13))
 
 ### Changed
 *   `prettier` to latest patch version.
 
-# [0.2.1] - 2018-06-05 ([PR 12](https://github.com/dogma-io/eslint-config-lintly/pull/12))
+## [0.2.1] - 2018-06-05 ([PR 12](https://github.com/dogma-io/eslint-config-lintly/pull/12))
 
 ### Changed
 *   Build to be ES5.
 
-# [0.2.0] - 2018-05-27 ([PR 9](https://github.com/dogma-io/eslint-config-lintly/pull/9))
+## [0.2.0] - 2018-05-27 ([PR 9](https://github.com/dogma-io/eslint-config-lintly/pull/9))
 
 ### Added
 *   Flow types to `lib` directory.
@@ -60,30 +60,30 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Changed
 *   Dependencies to latest versions.
 
-# [0.1.4] - 2018-05-18 ([PR 7](https://github.com/dogma-io/eslint-config-lintly/pull/7))
+## [0.1.4] - 2018-05-18 ([PR 7](https://github.com/dogma-io/eslint-config-lintly/pull/7))
 
 ### Changed
 *   Dependencies to latest versions.
 
-# [0.1.3] - 2018-04-30 ([PR 6](https://github.com/dogma-io/eslint-config-lintly/pull/6))
+## [0.1.3] - 2018-04-30 ([PR 6](https://github.com/dogma-io/eslint-config-lintly/pull/6))
 
 ### Changed
 *   Dependencies to latest versions.
 
-# [0.1.2] - 2018-04-20 ([PR 5](https://github.com/dogma-io/eslint-config-lintly/pull/5))
+## [0.1.2] - 2018-04-20 ([PR 5](https://github.com/dogma-io/eslint-config-lintly/pull/5))
 
 ### Changed
 *   Dependencies to latest versions.
 
-# [0.1.1] - 2018-04-04 ([PR 4](https://github.com/dogma-io/eslint-config-lintly/pull/4))
+## [0.1.1] - 2018-04-04 ([PR 4](https://github.com/dogma-io/eslint-config-lintly/pull/4))
 
 ### Added
 *   `engines` to `package.json` to set minimum Node version to 6.
 
-## Changed
+### Changed
 *   Dependencies to latest versions.
 
-# [0.1.0] - 2018-03-20 ([PR 3](https://github.com/dogma-io/eslint-config-lintly/pull/3))
+## [0.1.0] - 2018-03-20 ([PR 3](https://github.com/dogma-io/eslint-config-lintly/pull/3))
 
 ### Added
 *   Code of conduct.
