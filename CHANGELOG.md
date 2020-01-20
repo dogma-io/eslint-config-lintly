@@ -1,96 +1,140 @@
-# 0.4.1 (2018-09-02)
+# Changelog
 
-*   Fix Flow types.
+All notable changes to this project will be documented in this file.
 
+The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
+and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
-# 0.4.0 (2018-09-02)
+<!--
+  The bumpr comment below is there to make it easier to update this changelog using a machine during PR merge.
+  Please do not remove it, as this will break continuous integration.
+-->
 
-*   Upgrade dependencies to latest versions.
+<!-- bumpr -->
 
-# 0.3.0 (2018-07-19)
+# [0.5.0] - 2018-09-02 ([PR 18](https://github.com/dogma-io/eslint-config-lintly/pull/18))
 
-*   Upgrade dependencies to latest versions.
+### Changed
+*   Dependencies to latest versions.
 
-# 0.2.2 (2018-06-14)
+# [0.4.1] - 2018-09-02 ([PR 16](https://github.com/dogma-io/eslint-config-lintly/pull/16))
 
-*   Upgrade to latest patch version of `prettier`.
+### Fixed
+*   Flow types.
 
+# [0.4.0] - 2018-09-02 ([PR 15](https://github.com/dogma-io/eslint-config-lintly/pull/15))
 
-# 0.2.1 (2018-06-05)
+### Changed
+*   Dependencies to latest versions.
 
-*   Make sure build is ES5.
+# [0.3.0] - 2018-07-19 ([PR 14](https://github.com/dogma-io/eslint-config-lintly/pull/14))
 
+### Changed
+*   Dependencies to latest versions.
 
-# 0.2.0 (2018-05-27)
+# [0.2.2] - 2018-06-14 ([PR 13](https://github.com/dogma-io/eslint-config-lintly/pull/13))
 
-*  Add flow types to `lib` directory.
-* Upgrade dependencies to latest versions.
+### Changed
+*   `prettier` to latest patch version.
 
+# [0.2.1] - 2018-06-05 ([PR 12](https://github.com/dogma-io/eslint-config-lintly/pull/12))
 
-# 0.1.4 (2018-05-18)
+### Changed
+*   Build to be ES5.
 
-*   Upgrade dependencies to latest versions.
+# [0.2.0] - 2018-05-27 ([PR 9](https://github.com/dogma-io/eslint-config-lintly/pull/9))
 
-# 0.1.3 (2018-04-30)
+### Added
+*   Flow types to `lib` directory.
 
-*   Upgrade dependencies to latest versions.
+### Changed
+*   Dependencies to latest versions.
 
+# [0.1.4] - 2018-05-18 ([PR 7](https://github.com/dogma-io/eslint-config-lintly/pull/7))
 
-# 0.1.2 (2018-04-20)
+### Changed
+*   Dependencies to latest versions.
 
-*   Upgrade dependencies to latest versions.
+# [0.1.3] - 2018-04-30 ([PR 6](https://github.com/dogma-io/eslint-config-lintly/pull/6))
 
+### Changed
+*   Dependencies to latest versions.
 
-# 0.1.1 (2018-04-04)
+# [0.1.2] - 2018-04-20 ([PR 5](https://github.com/dogma-io/eslint-config-lintly/pull/5))
 
-*   Added `engines` to `package.json` to set minimum Node version to 6.
-*   Upgraded dependencies to latest versions.
+### Changed
+*   Dependencies to latest versions.
 
-# 0.1.0 (2018-03-20)
+# [0.1.1] - 2018-04-04 ([PR 4](https://github.com/dogma-io/eslint-config-lintly/pull/4))
 
-*   Update dependencies to latest versions.
-*   Configure continuous integration.
-*   Change minimum Node version to 6.
-*   Add code of conduct.
+### Added
+*   `engines` to `package.json` to set minimum Node version to 6.
 
-## 0.0.10
+## Changed
+*   Dependencies to latest versions.
 
-*   Upgrade dependencies to latest versions.
+# [0.1.0] - 2018-03-20 ([PR 3](https://github.com/dogma-io/eslint-config-lintly/pull/3))
 
-## 0.0.9
+### Added
+*   Code of conduct.
+*   Configuration for continuous integration.
 
-*   Add `eslint-plugin-jsx-a11y`.
+### Changed
+*   Dependencies to latest versions.
+*   Minimum Node version to 6.
 
-## 0.0.8
+## [0.0.10]
 
-*   Upgrade `eslint-plugin-opinionated` for a bug fix.
+### Changed
+*   Dependencies to latest versions.
 
-## 0.0.7
+## [0.0.9]
 
-*   Add `eslint-plugin-opinionated`.
-*   Upgrade `eslint-plugin-flowtype` to latest version.
+### Added
+*   `eslint-plugin-jsx-a11y`.
 
-## 0.0.6
+## [0.0.8]
 
+### Changed
+*   `eslint-plugin-opinionated` for a bug fix.
+
+## [0.0.7]
+
+### Added
+*   `eslint-plugin-opinionated`.
+
+### Changed
+*   `eslint-plugin-flowtype` to latest version.
+
+## [0.0.6]
+
+### Added
 *   Enable stricter lint rules.
 
-## 0.0.5
+## [0.0.5]
 
-*   Upgrade dependencies to latest versions.
+### Changed
+*   Dependencies to latest versions.
 
-## 0.0.4
+## [0.0.4]
 
-*   Add eslint-plugin-react-compat.
-*   Upgrade dependencies to latest versions.
+### Added
+*   `eslint-plugin-react-compat`.
 
-## 0.0.3
+### Changed
+*   Dependencies to latest versions.
 
-*   Upgrade to latest nodely which uses Babel 7 beta.
+## [0.0.3]
 
-## 0.0.2
+### Changed
+*   `nodely` to latest version which uses Babel 7 beta.
 
-*   Fixed babel config and tests.
+## [0.0.2]
 
-## 0.0.1
+### Fixed
+*   Babel config and tests.
 
+## [0.0.1]
+
+### Added
 *   Initial implementation.
